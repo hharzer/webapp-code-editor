@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import ResetIcon from '@material-ui/icons/Refresh';
+import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import ResetIcon from '@mui/icons-material/Refresh';
 
 import { resetApp } from 'utils';
 import config from 'config';

@@ -16,7 +16,7 @@ const WaitingCompLoader = _ => <div style={wrapperStyles}>
   <Loading isLoading/>
 </div>;
 
-const asyncComponentLoader = Component => props => <Suspense fallback={<WaitingCompLoader />}>
+export const asyncComponentLoader = Component => props => <Suspense fallback={<WaitingCompLoader />}>
   <Component {...props} />
 </Suspense>;
 

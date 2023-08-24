@@ -1,11 +1,11 @@
 import React from 'react';
 
-import CircularProgress from '@material-ui/core/CircularProgress';
-import Paper from '@material-ui/core/Paper';
+import CircularProgress from '@mui/material/CircularProgress';
+import Paper from '@mui/material/Paper';
 
 import useStyles from './useStyles';
 
-const Loading = _ => {
+export const Loading = _ => {
   const classes = useStyles();
 
   return <Paper elevation={0} square={true} className={classes.preloader}>

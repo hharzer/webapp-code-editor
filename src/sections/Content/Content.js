@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Paper from '@material-ui/core/Paper';
+import Paper from '@mui/material/Paper';
 
 import Editor from 'sections/Editor';
 import DiffEditor from 'sections/DiffEditor';
@@ -9,7 +9,7 @@ import { useStore } from 'store';
 import classNames from 'classnames';
 import useStyles from './useStyles';
 
-const Content = _ => {
+export const Content = _ => {
   const classes = useStyles();
   const { state: { editorMode } } = useStore();
 

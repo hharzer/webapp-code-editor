@@ -1,9 +1,9 @@
 import React from 'react';
 
 import MonacoEditor from '@monaco-editor/react';
-import Settings from './Settings';
+import { Settings } from "./Settings"
 
-import { useStore } from 'store';
+import { useStore } from 'store';
 import { isMobile } from 'utils';
 import examples from 'config/examples';
 import config from 'config';

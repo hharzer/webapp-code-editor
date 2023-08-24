@@ -5,7 +5,7 @@ import { asyncComponentLoader } from 'utils';
 
 const ContentSection = asyncComponentLoader(ContentLoader);
 
-const Content = _ => <div>
+export const Content = _ => <div>
   <ContentSection />
 </div>;
 

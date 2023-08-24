@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useStore } from 'store';
 
-import Snackbar from '@material-ui/core/Snackbar';
+import Snackbar from '@mui/material/Snackbar';
 import SnackbarContent from './SnackbarContent';
 import config from 'config';
 

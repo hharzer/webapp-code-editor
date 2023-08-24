@@ -7,7 +7,7 @@ import useStyles from './useStyles';
 
 const HeaderSection = asyncComponentLoader(HeaderLoader);
 
-const Header = _ => {
+export const Header = _ => {
   const classes = useStyles();
 
   return (
